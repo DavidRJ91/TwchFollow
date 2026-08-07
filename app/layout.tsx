@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import Sidebar from "@/components/Sidebar";
 import "./globals.css";
 
@@ -20,9 +21,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             ["/fans", "🧠"],
             ["/growth", "📈"],
           ].map(([href, icon]) => (
-            <a key={href} href={href} className="flex-1 py-3 text-center text-lg">
+            <Link key={href} href={href} className="flex-1 py-3 text-center text-lg">
               {icon}
-            </a>
+            </Link>
           ))}
         </nav>
         <main className="flex-1 min-h-screen pb-16 md:pb-6 p-4 md:p-8 max-w-6xl mx-auto w-full">
