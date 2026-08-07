@@ -1,7 +1,7 @@
 # 🎮 Twitch Follows Analyzer
 
 Analizador de follows de Twitch: unfollows, quién no te sigue de vuelta, fans/mutuos,
-crecimiento y buscador de seguidores de cualquier canal. Estilo tools.2807.eu/follows.
+crecimiento y buscador de seguidores de cualquier canal.
 
 ## ⚙️ Configuración (una vez)
 
